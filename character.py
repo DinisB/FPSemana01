@@ -21,5 +21,5 @@ for character in chars:
     if character[1][1] > max_defense_chars[1][1]:
         max_defense_chars = character
 
-print("Max ataque é " + max_attack_chars[0] + " com " + str(max_attack_chars[1][0]))
-print("Max defesa é" + max_defense_chars[0] + " com " + str(max_defense_chars[1][1]))
+print("Ataque " + max_attack_chars[0] + str(max_attack_chars[1][0]))
+print("Defesa" + max_defense_chars[0] + str(max_defense_chars[1][1]))
